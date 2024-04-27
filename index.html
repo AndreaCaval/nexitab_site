@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <a href="#home" class="nav__link" onclick="closeNav()">Home</a>
+            <!-- <a href="#sites" class="nav__link" onclick="closeNav()">Sites</a> -->
+            <a id="dashboard" onclick="closeNav()" href="#" class="nav__link">Download</a>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+
+    <header class="header" id="header">
+
+        <nav class="nav">
+            <i class="uil uil-bars" id="menuToggle" onclick="menuToggle()"></i>
+
+            <a href="#home" class="nav__link">Home</a>
+            <!-- <a href="#sites" class="nav__link">Sites</a> -->
+            <a id="dashboard"  href="#" class="nav__link">Download</a> 
+        </nav>
+    </header>
+
+    <div class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container">
+                <div class="home__content">
+                    <a target="_blank" title="">
+                        <h1 class="logo__title">NovaTab</h1>
+                    </a>
+                    <p> Chrome Extension. </p>
+                    <p> The one you need to enhances your user experience</p>
+                    <br><br>
+                    <a id="join"
+                        href=""
+                        target="">Download</a>
+
+                </div>
+                <div class="home__logo">
+                    <img class="logo__img" src="images/nova_logo_640.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div class="footer__names">
+                    <h1 class="footer__title">NovaTab</h1>
+                    <p class="footer__subtitle"> Chrome Extension. </p>
+                    <p class="footer__subtitle"> The one you need to enhances your user experience</p>
+                </div>
+            </div>
+            <p class="footer__about"><a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
