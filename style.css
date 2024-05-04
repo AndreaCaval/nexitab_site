@@ -72,6 +72,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 
 .section__title {
@@ -536,6 +537,7 @@ input:checked~label .cross:after {
 @media screen and (min-width:10px) {
     .section {
         padding: 2rem;
+        width: 100%;
     }
 
     .sites__container {
@@ -569,6 +571,7 @@ input:checked~label .cross:after {
 @media screen and (min-width:568px) {
     .section {
         padding: 5rem;
+        width: 100%;
     }
 
     .sites__container {
@@ -612,6 +615,7 @@ input:checked~label .cross:after {
 @media screen and (min-width: 1024px) {
     .section {
         padding: 10rem;
+        width: 80%;
     }
 
     :root {
